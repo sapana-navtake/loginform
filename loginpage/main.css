@@ -1,0 +1,169 @@
+body{
+    background: url("./images/background.jpg") ;
+}
+   
+.container{
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    padding: 50px;  
+    position: absolute;;
+    width: 300px;
+    height: 380px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 8px;
+    background: white;
+} 
+ 
+.text{
+    width: 100%;
+    padding: 8px 8px;
+    margin: -40px 0PX;;
+    border: 0;
+    outline: 0;
+    top: 10px;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+}
+
+.text:hover{
+    border-bottom: 2px solid cornflowerblue;
+}
+  
+.pass{
+    padding: 0%;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 30px 0PX;;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #ccc; 
+}
+
+.pass:hover{
+    border-bottom: 2px solid cornflowerblue;    
+}
+
+.passlockimage{
+    position: absolute;
+    right: 5px;
+    top:195px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    left: 320px;
+}
+
+.profilepic{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position:absolute;
+    top: 110px;
+    left: calc(50%-50px);
+    margin-top: -100px;
+}
+
+.backcircle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position:absolute;
+    top: 50px;
+    left: calc(50%-50px);
+    margin-top: -100px;
+    margin-left: 90px;
+    background: white;
+}
+  
+.arrow{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px 2px rgb(204, 204, 204);
+    position:absolute;
+    top: 550px;
+    left: calc(50%-50px);
+    margin-top: -100px;
+    margin-left: 120px;
+    background: white;
+}
+  
+.label1{
+    font-family: "Helvetica Neue", Helvetica, sans-serif; 
+    color: cornflowerblue;
+    padding: 30px;
+    margin-left: -30px;
+}
+
+.label2{
+    font-family: "Helvetica Neue", Helvetica, sans-serif; 
+    color: cornflowerblue;
+    margin-top: -25px;
+    margin-left: 5px;  
+}
+  
+.label3{    
+    color:gray;
+}
+  
+.label4{
+    color: gray;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left:35%;
+    margin-top: 40px;
+}
+  
+.label5{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 16px; 
+    margin-left:30%;
+}
+  
+#checkbox1{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: checkbox;
+    outline: none;
+    cursor: pointer;
+}
+  
+.middleline{
+    border-bottom: 2px solid rgb(245, 243, 243);
+    background-origin: padding-box;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+  
+.makecenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+@media screen and (min-width: 480px){
+    .container{
+        width: 300px;
+    }  
+
+    .circle2{
+        width: 60px;
+    }
+    .passlockimage{
+        width: 30px;
+    }
+
+}
+
+
+
+
